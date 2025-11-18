@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "10.43.102.227",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "parcial",
+            "database": "parcial",
+            "username": "usuario"
+        }
+    ]
+}
