@@ -22,7 +22,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @SuppressWarnings("deprecation")
-@SQLDelete(sql = "UPDATE clinica ET eliminado = true WHERE id=?")
+@SQLDelete(sql = "UPDATE clinica SET eliminado = true WHERE id=?")
 @Where(clause = "eliminado = false")
 public class Clinica {
 

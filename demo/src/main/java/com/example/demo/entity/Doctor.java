@@ -42,7 +42,4 @@ public class Doctor {
     @JoinColumn(name = "clinica_id")
     private Clinica clinica;
 
-    public void setContratacion(Object fecha_contratacion) {
-        throw new UnsupportedOperationException("Unimplemented method 'setFechaContratacion'");
-    }
 }
